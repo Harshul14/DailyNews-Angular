@@ -1,0 +1,41 @@
+<ngx-loading-bar [includeBar]="true" [includeSpinner]="false"></ngx-loading-bar>
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="" href="">
+      <img src="assets\favicon.ico" width="40" height="40" class="d-inline-block align-top" alt="">
+    </a>
+    <a class="navbar-brand" style="color:#fff;" routerLink="">Daily News</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!-- <li class="nav-item">
+          <a class="nav-link" style="color:#fff;" aria-current="page" routerLink="">Home</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" style="color:#fff;" aria-current="page" routerLink="sports">Sports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color:#fff;" aria-current="page" routerLink="health">Health</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color:#fff;" aria-current="page" routerLink="science">Science</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color:#fff;" aria-current="page" routerLink="entertaintment">Entertaintment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color:#fff;" aria-current="page" routerLink="tech">Technology</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color:#fff;" aria-current="page" routerLink="business">Business</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- <hr style="height:30px" padding-top="0%" col" class="hr"> -->
+<hr style="height:4px;border-width:0;background-color:#00008B;margin-top: 0px;">
+<router-outlet></router-outlet>

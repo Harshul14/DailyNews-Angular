@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+marquee {
+    color: green;
+}
+
+.box {
+    padding: 10px 10px;
+    background-color: #000000de;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 350px;
+}
+
+.box h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Times New Roman';
+    height: 40px;
+}
+
+.btn {
+    padding: 4px 4px 4px 4px;
+    margin-top: 10px;
+}
+
+.box a {
+    margin-bottom: 10px;
+}
+
+.demo{
+    margin-top: 60px;
+}
